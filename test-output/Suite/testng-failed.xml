@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="APITests(failed)">
+    <classes>
+      <class name="testsAPI.APITests">
+        <methods>
+          <include name="validateRockRoundCity"/>
+          <include name="validateNullCity"/>
+          <include name="setUp"/>
+          <include name="validateTampaCity"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testsAPI.APITests -->
+    </classes>
+  </test> <!-- APITests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
